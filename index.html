@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Drawing App</title>
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div class="container">
+  <canvas width="800px" height="400px" id="art"></canvas>
+   <div id="buttons">
+     <input type="button" id="reset" value="Clear Canvas"/>
+     <div id='red' class="color"></div>
+     <div id='blue' class="color"></div>
+     <div id='green' class="color"></div>
+     <div id='purple' class="color"></div>
+     <div id='yellow' class="color"></div>
+     <div id='orange' class="color"></div>
+     <div id='pink' class="color"></div>
+     <div id='black' class="color"></div>
+     <div id='white' class="color"></div>
+     <div id='ebebeb' class="color"></div>
+    <div class="lineWidth"> Line width : </div>
+     	<select id="selWidth">
+            <option value="1">1</option>
+            <option value="3">3</option>
+            <option value="5">5</option>
+            <option value="7">7</option>
+            <option value="9" selected="selected">9</option>
+            <option value="11">11</option>
+        </select>
+    <button id="undo">Undo</button>
+    <button id="redo">Redo</button>
+
+  </div>
+
+</div>  
+    <script type="text/javascript" src="dist/bundle.js"></script>
+</body>
+</html>
